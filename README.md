@@ -1,3 +1,8 @@
+## 💾 Download
+
+Download the latest standalone installer for macOS:
+👉 [Download VirtualBookkeeper-Installer.dmg](https://github.com/VarunParikh/virtual-bookkeeper-ai/releases/latest/download/VirtualBookkeeper-Installer.dmg)
+
 # Virtual Bookkeeper AI 🗂️✨
 
 An offline, privacy-first desktop application that organizes messy folders (like `~/Downloads`) into structured directories and functional subfolders using local LLMs (via Ollama).
