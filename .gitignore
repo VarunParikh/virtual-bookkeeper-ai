@@ -1,0 +1,33 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Build and Distribution (PyInstaller / DMG output)
+build/
+dist/
+dist_dmg/
+dmg_staging/
+*.spec
+
+# Application Manifests & History Logs
+.organizer_history.json
+.custom_organizer_history.json
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# VS Code / IDE settings
+.vscode/
+.idea/
