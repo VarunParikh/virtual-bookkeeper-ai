@@ -1,3 +1,5 @@
+> 📄 **Looking for the full Product Requirements Document?** Read the [Product Requirements Document (PRD) on our Wiki](https://github.com/VarunParikh/virtual-bookkeeper-ai/wiki).
+
 # Virtual Bookkeeper AI 🗂️✨
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
