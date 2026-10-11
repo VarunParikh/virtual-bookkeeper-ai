@@ -2,7 +2,7 @@
 
 **Product Name:** Virtual Bookkeeper AI  
 **Document Version:** 1.0  
-**Target Platform:** macOS (Apple Silicon & Intel)  
+**Target Platform:** macOS (Apple Silicon)  
 **Status:** Approved / Production  
 
 ---
