@@ -30,6 +30,9 @@ Drag and drop `VirtualBookkeeper.app` into your `/Applications` folder, launch i
 * **Intelligent Two-Tier Triage Engine:**
   1. **Tier 1 (Filename-First):** Evaluates filenames for clear semantic meaning to skip unnecessary document parsing and minimize resource usage.
   2. **Tier 2 (Deep Content Inspection):** Performs deep text parsing across PDFs (`pypdf`), Word documents (`docx`), Excel sheets (`openpyxl`), PowerPoint presentations (`python-pptx`), Markdown, and text files when filenames are vague.
+* **Optional Online Fallback:** If the filename is generic and local extraction returns no text, users may enable online lookup. The app sends only the basename (not its directory or file contents) to DuckDuckGo, uses returned public snippets as unverified context for local classification, and leaves the proposed move in the review stage. The option is off by default.
+
+
 * **Custom Taxonomies & Dynamic Subfolders:** Define your high-level parent groups (e.g., *Work & Projects*, *Financial & Tax*) and let the local model synthesize contextual subfolders (*Invoices*, *Engineering Resumes*, *Q3 Reviews*).
 * **Two-Step Review Before Execution:** Inspect all proposed file movements, category matches, and reasoning in a staging table before committing any changes.
 * **Safe, Non-Destructive Operations:**
